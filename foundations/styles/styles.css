@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+
+img{
+    height: auto;
+    width: 750px;
+}
+
+.hogwarts-img, .re4-img{
+    background-color: gray;
+    width: 50%;
+    margin: auto;
+}
+
+.hogwarts-content-body, .hogwarts-content-body{
+    font-size: large;
+    font-family: Arial, serif;
+}
+
+.return-home{
+    font-size: larger;
+    font-family: Arial, serif;
+}
+
+.pad{
+    padding: 10px;
+}
