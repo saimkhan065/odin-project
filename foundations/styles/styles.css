@@ -1,16 +1,21 @@
-h1{
+h1, h3{
     text-align: center;
 }
 
 html, body{
     background: rgb(32, 38, 52);
     height: 100%;
-    overflow: hidden;
 }
 
 img{
-    height: auto;
-    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    border-radius: 25px;
+    border: 2px solid white;
+    justify-content: center;
 }
 
 .text{
@@ -53,12 +58,25 @@ img{
 .sidebar{
     flex: 1 1 auto;
     background-color: rgb(40, 48, 68);
-    min-width: 25%;
-    z-index: 1;
+    max-width: 25%;
+   /* z-index: 1; */
     box-shadow: 0 0 3px 3px rgb(40, 48, 68);
-
 }
 
 .main-content{
     flex: 2 1 auto;
 }
+
+
+
+/*.main-content-pointers{*/
+/*    display: flex;*/
+/*}*/
+
+/*.main-content-pointers-list-item{*/
+/*    flex: 1;*/
+/*    background-color: greenyellow;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    color: white;*/
+/*}*/
