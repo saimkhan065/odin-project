@@ -59,7 +59,8 @@ img{
     flex: 1 1 auto;
     background-color: rgb(40, 48, 68);
     max-width: 25%;
-   /* z-index: 1; */
+    min-width: 25%;
+    z-index: 1;
     box-shadow: 0 0 3px 3px rgb(40, 48, 68);
 }
 
@@ -67,16 +68,15 @@ img{
     flex: 2 1 auto;
 }
 
+.main-content-pointers-list{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-
-/*.main-content-pointers{*/
-/*    display: flex;*/
-/*}*/
-
-/*.main-content-pointers-list-item{*/
-/*    flex: 1;*/
-/*    background-color: greenyellow;*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*    color: white;*/
-/*}*/
+.list-item{
+    /*list-style: none;*/
+    /*display: inline-block;*/
+    width: calc(100% / 3);
+    height: 120px;
+    text-align: center;
+}
