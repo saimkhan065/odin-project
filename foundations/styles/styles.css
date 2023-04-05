@@ -2,20 +2,29 @@ h1{
     text-align: center;
 }
 
-body{
-    background: #ddd;
+html, body{
+    background: rgb(32, 38, 52);
+    height: 100%;
+    overflow: hidden;
 }
 
 img{
     height: auto;
-    width: 750px;
+    width: 50%;
+}
+
+.text{
+    font-family: "Inter var", sans-serif;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 .hogwarts-img, .re4-img{
     background-color: gray;
-    width: 50%;
     margin-right: auto;
     margin-left: auto;
+    justify-content: center;
 }
 
 .hogwarts-content-body, .re4-content-body{
@@ -30,4 +39,26 @@ img{
 
 .pad{
     padding: 10px;
+}
+
+.margin{
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+}
+
+.sidebar{
+    flex: 1 1 auto;
+    background-color: rgb(40, 48, 68);
+    min-width: 25%;
+    z-index: 1;
+    box-shadow: 0 0 3px 3px rgb(40, 48, 68);
+
+}
+
+.main-content{
+    flex: 2 1 auto;
 }
